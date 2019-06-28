@@ -29,6 +29,7 @@ def map_to_double(source_array)
     new << (source_array[i] * 2)
     i += 1
   end
+  return new
 end
 
 def map_to_square(source_array)
